@@ -1,0 +1,35 @@
+.search-bar {
+    position: relative;
+    max-width: 600px;
+    margin: 10 auto;
+  }
+  
+  .search-bar input {
+    width: 150%;
+    padding: 10px;
+    border: 1px solid #509bd1;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .suggestions-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    border: 1px solid #e9589a;
+    border-top: none;
+    background: #d56363;
+    z-index: 1000;
+  }
+  
+  .suggestions-list li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .suggestions-list li:hover {
+    background-color: #a084df;
+  }
+  
